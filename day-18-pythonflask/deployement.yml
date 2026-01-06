@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: httpd
+        image: nginx:alpine
         ports:
         - containerPort: 5000
