@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: 170928836252.dkr.ecr.us-east-1.amazonaws.com/python:latest
+        image: httpd
         ports:
         - containerPort: 5000
